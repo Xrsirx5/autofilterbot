@@ -1,3 +1,4 @@
+
 import re
 import time
 import asyncio
@@ -223,9 +224,9 @@ async def cb_settings(bot, update: CallbackQuery):
 
     await update.message.edit_text(
         text, 
-        reply_markup=reply_markup, 
-        parse_mode="html"
-        )
+        reply_markup=reply_markup,check links is here
+  
+        
 
 
 
