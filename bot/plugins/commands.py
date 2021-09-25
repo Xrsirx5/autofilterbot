@@ -23,8 +23,8 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
-        try:
+        caption = @A6rzuxpt69drdr6t9d5
+ 
             await update.reply_cached_media(
                 file_id,
                 quote=True,
@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '😁Our cannel😁', url="https://t.me/noughtyland1
                                 )
                         ]
                     ]
